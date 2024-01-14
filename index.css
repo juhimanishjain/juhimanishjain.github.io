@@ -1,10 +1,12 @@
 /*font families*/
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
 :root {
   --background-blue: rgb(148, 187, 233);
   --background-pink: rgba(238, 174, 202, 1);
+  --text-highlight-color: #a0829a;
+  --underlined-text-highlight-color:  #897c87;
 }
 
 * {
@@ -13,10 +15,15 @@
 }
 
 .main-heading {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin: 2.5% auto auto 5.5%;
   font-size: 1.9rem;
-  font-weight: 700;
+  font-weight: 600;
+  color: black;
+}
+
+.main-title-link{
+  text-decoration-line: none;
 }
 
 .wrapper {
@@ -38,14 +45,14 @@ body {
 }
 
 img {
-  width: 70%;
+  width: 72%;
   border-radius: 2.5%;
 }
 
 .wrapper-text {
-  font-family: "Mukta", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin-right: 10%;
-  font-size: 1.03rem;
+  font-size: 1rem;
   margin-top: 3%;
   flex: 1; /* Let this element take up 50% of available space */
 }
@@ -62,34 +69,38 @@ img {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  margin-top: 7%;
+  margin-top: 3%;
   margin-bottom: 0;
 }
 
 .footer {
   margin: 10px;
-  font-family: "Mukta", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   letter-spacing: 0.03em;
   font-size: 1.05rem;
   line-height: 1.25em;
   font-weight: 500;
 }
 
-.highlights-main-body, span{
-  color: #5A4FCF;
+.highlights-main-body, span, a:visited{
+  color:var(--underlined-text-highlight-color);
 }
 
-/*Increase Width of Icons*/
+.just-text{
+  color: var(--text-highlight-color);
+  font-weight: 700;
+}
+
 .linkedin-link, .github-link, .email-link{
   margin-right: 1rem;
 }
 
 svg{
-  height: 1.5rem;
+  height: 2rem;
 }
 
 /* adjusting to all screen sizes */
-@media (max-width:750px){
+@media (max-width:780px){
   body{
     display: block;
     max-height: calc(200vh);

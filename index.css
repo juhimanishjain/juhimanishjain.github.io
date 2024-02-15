@@ -1,12 +1,13 @@
 /*font families*/
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
 
 :root {
   --background-blue: rgb(148, 187, 233);
   --background-pink: rgba(238, 174, 202, 1);
   --text-highlight-color: #a0829a;
-  --underlined-text-highlight-color:  #897c87;
+  --underlined-text-highlight-color: #897c87;
 }
 
 * {
@@ -15,14 +16,14 @@
 }
 
 .main-heading {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   margin: 2.5% auto auto 5.5%;
   font-size: 1.9rem;
   font-weight: 600;
   color: black;
 }
 
-.main-title-link{
+.main-title-link {
   text-decoration-line: none;
 }
 
@@ -50,17 +51,18 @@ img {
 }
 
 .wrapper-text {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   margin-right: 10%;
   font-size: 1rem;
   margin-top: 3%;
+  font-weight: 400;
   flex: 1; /* Let this element take up 50% of available space */
 }
 
 .background-para {
   margin-bottom: 2.6%;
   letter-spacing: 0.03em;
-  line-height: 1.25em;
+  line-height: 1.3em;
 }
 
 .center-content {
@@ -75,59 +77,62 @@ img {
 
 .footer {
   margin: 10px;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   letter-spacing: 0.03em;
   font-size: 1.05rem;
   line-height: 1.25em;
   font-weight: 500;
 }
 
-.highlights-main-body, span, a:visited{
-  color:var(--underlined-text-highlight-color);
+.highlights-main-body,
+span,
+a:visited {
+  color: var(--underlined-text-highlight-color);
 }
 
-.just-text{
+.just-text {
   color: var(--text-highlight-color);
   font-weight: 700;
 }
 
-.linkedin-link, .github-link, .email-link{
+.linkedin-link,
+.github-link,
+.email-link {
   margin-right: 1rem;
 }
 
-svg{
+svg {
   height: 2rem;
 }
 
 /* adjusting to all screen sizes */
-@media (max-width:780px){
-  body{
+@media (max-width: 780px) {
+  body {
     display: block;
     max-height: calc(200vh);
   }
 
-  .wrapper{
+  .wrapper {
     display: block;
   }
 
-  .wrapper-image{
+  .wrapper-image {
     margin-right: 2%;
     margin-bottom: 10%;
   }
 
-  img{
+  img {
     width: 90%;
   }
 
-  .main-heading{
+  .main-heading {
     text-align: center;
     margin-top: 6%;
   }
 
-  .wrapper-text{
+  .wrapper-text {
     margin-left: 10%;
     margin-right: 5.4%;
     margin-bottom: 10%;
   }
-
 }

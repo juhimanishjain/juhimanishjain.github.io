@@ -85,7 +85,7 @@ img {
 }
 
 .highlights-main-body,
-span,
+span, a,
 a:visited {
   color: var(--underlined-text-highlight-color);
 }

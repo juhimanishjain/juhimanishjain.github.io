@@ -1,7 +1,7 @@
 /*font families*/
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
   --background-blue: rgb(148, 187, 233);
@@ -16,7 +16,7 @@
 }
 
 .main-heading {
-  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   margin: 2.5% auto auto 5.5%;
   font-size: 1.9rem;
   font-weight: 600;
@@ -51,7 +51,7 @@ img {
 }
 
 .wrapper-text {
-  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   margin-right: 10%;
   font-size: 1rem;
   margin-top: 3%;
@@ -77,7 +77,7 @@ img {
 
 .footer {
   margin: 10px;
-  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.03em;
   font-size: 1.05rem;
   line-height: 1.25em;
